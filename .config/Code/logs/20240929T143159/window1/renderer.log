@@ -1,0 +1,38 @@
+2024-09-29 14:32:00.309 [info] Started local extension host with pid 453869.
+2024-09-29 14:32:02.651 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-09-29 14:32:02.652 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-09-29 14:32:03.311 [info] [perf] Render performance baseline is 22ms
+2024-09-29 14:32:04.099 [error] [Extension Host] [LanguageModelAccess] Error: GitHubLoginFailed
+    at kS.authShowWarnings (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:633:14119)
+    at kS.getCopilotToken (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:633:12143)
+    at Q_.getCopilotToken (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:144:2645)
+    at AS._getAuthSession (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:2188)
+    at r (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:627)
+    at AS._registerLanguageModels (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:1513)
+    at async Promise.all (index 0)
+    at async Promise.allSettled (index 0)
+    at tut (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:1365:4466)
+    at Zct (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:1365:3435)
+    at m.n (/nix/store/am54pf9agsrjgmaarljnlf1af6l4b2gp-vscode-1.92.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:6409)
+    at m (/nix/store/am54pf9agsrjgmaarljnlf1af6l4b2gp-vscode-1.92.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:6372)
+    at m.l (/nix/store/am54pf9agsrjgmaarljnlf1af6l4b2gp-vscode-1.92.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:5829)
+2024-09-29 14:32:04.099 [error] [Extension Host] [LanguageModelAccess] Error: GitHubLoginFailed
+    at kS.authShowWarnings (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:633:14119)
+    at kS.getCopilotToken (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:633:12143)
+    at Q_.getCopilotToken (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:144:2645)
+    at AS._getAuthSession (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:2188)
+    at /home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:1777
+    at AS._registerEmbeddings (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:1747)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tut (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:1365:4466)
+    at Zct (/home/boccher/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:1365:3435)
+    at m.n (/nix/store/am54pf9agsrjgmaarljnlf1af6l4b2gp-vscode-1.92.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:6409)
+    at m (/nix/store/am54pf9agsrjgmaarljnlf1af6l4b2gp-vscode-1.92.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:6372)
+    at m.l (/nix/store/am54pf9agsrjgmaarljnlf1af6l4b2gp-vscode-1.92.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:5829)
+2024-09-29 14:32:04.100 [error] [Extension Host] [ContextKeysContribution] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-09-29 14:32:05.697 [error] [Extension Host] [auth] auth: CopilotAuthError: GitHubLoginFailed
+    at attemptAuthentication (/home/boccher/.vscode/extensions/github.copilot-1.234.0/extension/src/auth.ts:63:54) {
+  cause: undefined
+}
+2024-09-29 14:32:05.698 [error] [Extension Host] [auth] You are not signed in to GitHub. Please sign in to use Copilot.

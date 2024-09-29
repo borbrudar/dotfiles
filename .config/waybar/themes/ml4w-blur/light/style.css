@@ -5,7 +5,8 @@
 @define-color backgroundlight #222222;
 @define-color backgrounddark #222222;
 @define-color workspacesbackground1 #222222;
-@define-color workspacesbackground2 #80AAED;
+/*@define-color workspacesbackground2 #80AAED; thats the original*/
+@define-color workspacesbackground2 #1A73E8;
 @define-color bordercolor #444444;
 @define-color textcolor1 #EEEEEE;
 @define-color textcolor2 #EEEEEE;

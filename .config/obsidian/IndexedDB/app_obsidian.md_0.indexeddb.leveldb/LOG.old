@@ -1,0 +1,6 @@
+2024/09/22-21:01:26.427 693f Reusing MANIFEST /home/boccher/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/22-21:01:26.427 693f Recovering log #3
+2024/09/22-21:01:26.456 693f Reusing old log /home/boccher/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000003.log 
+2024/09/22-21:28:38.853 6853 Level-0 table #5: started
+2024/09/22-21:28:38.871 6853 Level-0 table #5: 1283918 bytes OK
+2024/09/22-21:28:38.877 6853 Delete type=0 #3
